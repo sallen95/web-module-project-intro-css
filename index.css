@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Chelsea+Market&family=Roboto+Mono&display=swap');
+
+
+html, body, div, span, h1, h2, h3, h4, h5, h6, a, header, footer, button, img{
+    margin:0;
+    padding:0;
+    border:0;
+    font-size:100%;
+    font:inherit;
+    vertical-align:baseline;
+}
+
+*{
+    box-sizing:border-box;
+    padding:0;
+    margin:0;
+    border:1px light grey;
+}
+
+html{
+    font-size:62.5%;
+}
+
+body{
+    font-size:1.6rem;
+    line-height:1.5;
+    font-family: 'Roboto Mono', monospace;
+}
+
+h1{
+    font-size:50px;
+    font-family: 'Chelsea Market', cursive;
+}
+
+header{
+    display:inline-block;
+}
+
+div img.first-image{
+    border-radius:50%;
+    width:25%;
+    display:inline-block;
+    margin: 5% 5% 5% 7.5%
+}
+
+div.intro{
+    display:inline-block;
+    width:50%;
+}
+
+
+nav button{
+    text-decoration:none;
+    border-radius:10%;
+    color:white;
+    width:10%;
+    height:60px;
+    margin:25%;
+}
+
+.plan{
+    background-color:#FF764E;
+    margin:0 7.5% 0 15%;
+}
+
+.learn{
+    background-color:#5ED3EB;
+    margin:0 7.5% 0 7.5%;
+}
+
+.involved{
+    background-color:#FFCD69;
+    margin:0 15% 0 7.5%;
+}
+
+footer{
+    background-color:#F9E7DC;
+    margin:5% 0 0 0;
+}
+
+footer div img{
+    width:100%;
+    height:450px;
+}
+
+.icons{
+    text-align:center;
+}
+
+img.truck{
+    width:50%;
+    padding:20% 0 0 0;
+}
+
+img.fire{
+    width:50%;
+}
+
+section.first-section{
+    background-color:#DDB9A3;
+    color:white;
+    text-align:center;
+    margin:0 2.5%;
+}
+
+p.about{
+    padding:.5%;
+}
+
+span{
+    font-weight:900;
+}
+
+section.icons{
+    margin:1% 42.5%;
+    font-size:1.1rem;
+}
